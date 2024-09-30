@@ -1,14 +1,17 @@
-""" operations.py """
+"""
+Copyright start
+MIT License
+Copyright (c) 2024 Fortinet Inc
+Copyright end
+"""
 
 import logging
-import os
 import json
 from pcapkit import extract
 from connectors.core.connector import get_logger, ConnectorError
 from integrations.crudhub import make_request
 from connectors.cyops_utilities.builtins import download_file_from_cyops, upload_file_to_cyops
 
-#TODO: upload created codes to cyops @upload_file_to_cyops
 
 logger = get_logger('pcap-parser')
 logger.setLevel(logging.DEBUG)
