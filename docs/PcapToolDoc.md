@@ -53,7 +53,8 @@ Included playbooks
 The Sample - PCAP Tools - 1.0.0 playbook collection comes bundled with the Exchange connector. This playbook contains steps using which you can perform all supported actions. You can see the bundled playbooks in the Automation > Playbooks section in FortiSOAR™ after importing the PCAP Tool connector.
 - PCAP to JSON
 
-* **Troubleshooting**
+
+**Troubleshooting**
 
 "Errors occurred while executing connector actions `PCAP to JSON`: getting the error `dict` object has no attribute `to_dict`
 ![Error](./images/action_error.png)
